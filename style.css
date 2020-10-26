@@ -369,6 +369,26 @@ tr:last-child td {
     justify-content: center;
 }
 
+.success_form *::selection {
+    background-color: var(--wc);
+    color: var(--bc);
+}
+
+.success_form *::-moz-selection {
+    background-color: var(--wc);
+    color: var(--bc);
+}
+
+.success_form .btn::selection {
+    background-color: var(--bc);
+    color: var(--wc);
+}
+
+.success_form .btn::-moz-selection {
+    background-color: var(--bc);
+    color: var(--wc);
+}
+
 .main_div {
     background-color: var(--bc);
     color: var(--wc);
