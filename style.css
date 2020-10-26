@@ -123,7 +123,8 @@ footer {
 }
 
 .section {
-    margin: 4rem 0;
+    margin: 2rem 0;
+    padding-top: 2rem;
 }
 
 /* Hero Section */
@@ -356,4 +357,27 @@ tr:last-child td {
     .form_input textarea {
         width: 150px;
     }
+}
+
+/* Form Page */
+.success_form {
+    width: 100%;
+    min-height: 90vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_div {
+    background-color: var(--bc);
+    color: var(--wc);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.main_div .btn {
+    background-color: var(--wc);
+    color: var(--bc);
 }
